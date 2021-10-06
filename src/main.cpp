@@ -1,4 +1,5 @@
 #include <Arduino.h>
+
 int tiempo = 500;
 
 void setup() {
@@ -6,8 +7,8 @@ void setup() {
 }
 
 void loop() {
-	digitalWrite(2, HIGH);
+	digitalWrite(2, HIGH); //Encendido del LED 2
 	delay(tiempo);
-	digitalWrite(2, LOW);
+	digitalWrite(2, LOW); //Apagado del LED 2
 	delay(tiempo);
 }
